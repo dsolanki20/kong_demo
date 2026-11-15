@@ -6,9 +6,9 @@
 kong-demo  <br>
 ├── docs          # Contains all the documents created. <br>
 ├── src             <br>
-	├── ubuntu_code     <br>
-		├── kong-dbless   # Docker Compose and declarative YAML configs (DB-less mode) <br>
-		└── kong-postgres # Docker Compose and database configs (PostgreSQL mode) <br>
+&nbsp;&nbsp;├── ubuntu_code     <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── kong-dbless   # Docker Compose and declarative YAML configs (DB-less mode) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── kong-postgres # Docker Compose and database configs (PostgreSQL mode) <br>
 
 
 enviornment:
