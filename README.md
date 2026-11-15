@@ -3,17 +3,12 @@
 11-Nov. => No prior knowledge of Kong or any API gateway. Started with basics of the same.
 12-Nov. => Section 1: Starting point and learning plan prepared.
 
-kong demo
-	|-- docs
-	|-- src
-		|-- ubuntu_code
-			|-- kong-dbless
-			|-- kong-postgres
-			
-	
-docs folder => Contains all the documents created.
-kong-dbless => contains docker/kong config for a database-less config
-kong-postgres => contains docker/kong config with postgres as database.
+kong-demo/
+├── docs/           # Contains all the documents created.
+├── src/            
+	├── ubuntu_code/    
+		├── kong-dbless/    # Docker Compose and declarative YAML configs (DB-less mode)
+		└── kong-postgres/  # Docker Compose and database configs (PostgreSQL mode)
 
 
 enviornment:
